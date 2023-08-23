@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一页</title>
+    <link rel="stylesheet" href="css/p1.css">
+</head>
+<body>
+    <div id="border">
+        <img src="img/邊框_00000.png" alt="" style="width: 100%;height: 80%;">
+    </div>
+
+    <div id="content-1">
+        <img src="img/title_00000.png" alt="" style="width: 100%;height: 100%;">
+    </div>
+
+    <div id="content-2">
+        <img src="img/intro_00000.png" alt="" style="width: 100%;height: 100%;">
+    </div>
+
+    <div id="content-3">
+        <img id="toPage2" src="img/button on_00000.png" alt="" style="width: 100%;height: 100%;">
+    </div>
+    <script>
+        var image = document.getElementById("toPage2");
+        image.addEventListener("click", function() {
+            // 跳转到 Page-2.html
+            window.location.href = "Page-2.html";
+        });
+    </script>
+</body>
+</html>

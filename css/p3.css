@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#border{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#border img{
+    position: relative;
+}
+
+#content-1{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    top: 0vh;
+}
+
+#content-1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#content-2{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    top: 0vh;
+}
+
+#content-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#content-3{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    top: 0vh;
+}
+
+#content-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+#content-4{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    top: 0vh;
+}
+
+#content-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+#content-5{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    bottom: -15vh;
+}
+
+#content-5 img{
+    width: 100%;
+    height: 100%;
+}
+
+#content-6{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 45vh;
+    position: absolute;
+    top: 0vh;
+}
+
+#content-6 img{
+    width: 100%;
+    height: 100%;
+}
+
+#character_input{
+    transform:translateX(14vh) translateY(-68vh);
+}
+#character_input input{
+    height: 27px;
+    width: 160px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Kaiti;
+    font-weight: 800;
+    text-align: center;
+}
+#birthday_input{
+    transform:translateX(14vh) translateY(-62.5vh);
+}
+#birthday_input input{
+    height: 27px;
+    width: 160px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Kaiti;
+    font-weight: 800;
+    text-align: center;
+}
+#cnName_input{
+    transform:translateX(14vh) translateY(-34.2vh);
+}
+#cnName_input input{
+    height: 27px;
+    width: 160px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Kaiti;
+    font-weight: 800;
+    text-align: center;
+}

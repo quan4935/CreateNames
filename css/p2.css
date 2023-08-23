@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+#border{
+    width: auto;
+    min-width: 40vh;
+    height: auto;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#border img{
+    position: relative;
+}
+
+#shengxiao_box{
+    width: 40vh;
+    height: 45vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    gap: 10px;
+}
+
+#shengxiao_box img{
+    width: 30vh;
+    height: 30vh;
+    margin: 3vh 70px;
+    transition: transform 0.5s ease-in-out;
+}
+
+#btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vh;
+    position: absolute;
+    top: 10vh;
+    z-index: 999;
+}
+#btn button{
+    height: 150px;
+    width: 18px;
+    border-radius: 10px;
+    border: none;
+    background: #a10f0f;
+    font-size: large;
+    color: white;
+}
+
+#xingzuo{
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    bottom: 30vh;
+    left: 17%;
+}
+
+#xingzuo::before {
+    content: '';
+    position: absolute;
+    bottom: 255px; /* 控制倒三角的位置 */
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #a10f0f; /* 倒三角的颜色和大小 */
+}
+
+#xingzuo img{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+#btn-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vh;
+    transform: translateY(-35vh);
+}
+#btn-2 button{
+    height: 150px;
+    width: 18px;
+    border-radius: 10px;
+    border: none;
+    background: #a10f0f;
+    font-size: large;
+    color: white;
+}
+
+#next{
+    z-index: 999;
+    transform: translateX(15vh) translateY(-25vh);
+}
+#next button{
+    background: #a10f0f;
+    width: 150px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
